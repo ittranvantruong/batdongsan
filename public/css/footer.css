@@ -1,0 +1,259 @@
+@media only screen and (min-width: 769px){
+
+	.footer_social .bct {
+        margin-right: 30%;
+        margin-left: 0;
+        width: 109px;
+    }
+    .footer_sub_col1, .footer_sub_col2, .footer_sub_col3, .footer_sub_col4{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .footer_social .bct {
+        margin-right: 40px;
+        margin-left: 0;
+        width: 109px;
+    }
+    .footer_row{
+        border-bottom: 1px solid #055699;
+        position: relative;
+    }
+    .footer_row:after{
+        content: '';
+        border-bottom: 1px solid #032d4f;
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        width: 100%;
+        height: 1px;
+    }
+
+
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+
+	.footer_social .bct {
+	    margin-right: 30%;
+	    margin-left: 0;
+	    width: 109px;
+	}
+	.footer_col2{
+	    display: none;
+	}
+	footer .downdload_app{
+	    text-align: center;   
+	}
+
+
+
+
+
+}
+
+
+
+
+footer {
+    background: #024073;
+    padding: 20px 0 25px;
+    color: #fff;
+}
+footer *{
+    font-family: sans-serif;
+}
+footer a, .footer_col2 a{
+    color: #fff;
+    font-size: 13px;
+}
+footer ul{
+    padding-left: 0;
+}
+footer .footer_logo{
+    text-align: center;
+}
+.footer_company_name{
+    font-size: 14px;
+    font-weight: 700;
+}
+.footer_company_name a{
+    font-size: 14px;
+    color: #7ac6ea;
+    font-weight:normal;
+    display: block;
+}
+.footer_add{
+    line-height: 16px;
+    margin-bottom: 14px;
+    position: relative;
+    padding-left: 25px;
+    font-size: 14px;
+}
+.footer_add span {
+    width: 25px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.footer_add img {
+    vertical-align: middle;
+}
+
+.footer_social a img {
+    margin: 0 10px;
+}
+
+.footer_col2 .col_header {
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #055699;
+    padding-bottom: 18px;
+    margin-bottom: 8px;
+    position: relative;
+}
+.footer_col2 .col_header:after {
+    content: '';
+    border-bottom: 1px solid #032d4f; 
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+}
+
+.footer_sub_col1 ul li, .footer_sub_col2 ul li {
+    line-height: 20px;
+}
+.footer_sub_col3 ul li {
+    font-weight: bold;
+    line-height: 32px;
+    font-size: 13px;
+}
+.footer_sub_col3 ul li img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.footer_sub_col3 .col_content{
+    width: 210px;
+}
+.footer_sub_col4{
+
+}
+.list_international {
+    padding: 10px 0 0 0;
+}
+.national {
+    position: relative;
+}
+.list_international .vietnam {
+    width: 100%;
+    height: 22px;
+    line-height: 22px;
+    background: #032d4f;
+    color: #fff;
+    margin: 10px 0;
+    position: relative;
+}
+.list_international div {
+    font-size: 13px;
+}
+.vietnam img {
+    padding: 0 6px;
+    vertical-align: top;
+    margin-top: 3px;
+}
+.vietnam:after {
+    content: url(https://file4.batdongsan.com.vn/images/newhome/down-solid-arrow.png);
+    position: absolute;
+    width: 8px;
+    height: 6px;
+    right: 9px;
+    top: 0px;
+}
+.national #country {
+    position: absolute;
+    top: 22px;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background: #032d4f;
+    z-index: 10;
+    padding-top: 5px;
+}
+.national #country li {
+    padding: 5px;
+}
+.language {
+    font-size: 12px;
+    line-height: 17px;
+}
+.language a {
+    margin-left: 20px;
+}
+.language img {
+    vertical-align: middle;
+}
+.footer_title{
+    margin: 18px 0 9px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+
+}
+footer hr{
+    background: #055699;
+    margin:0px;
+}
+#email_footer{
+    border: none;
+    background: #fff;
+    border-radius: 3px 0 0 3px;
+    width: 300px;
+    height: 32px;
+    padding: 0 0 0 14px;
+    float: left;
+}
+a#newsletterRegister_footer{
+    width: 64px;
+    height: 32px;
+    background: #3c9f10;
+    border-radius: 0 3px 3px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block;
+    float: left;
+    line-height: 32px;
+}
+.branch_show {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+}
+.branch_detail{
+    padding-top: 25px;
+}
+.branch{
+    margin-bottom: 10px;
+}
+.branch_name {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+}
+.branch_add {
+    font-size: 13px;
+}
+.footer_infomation div{
+    font-size: 12px;
+}
+.footer_row_2{
+    border-top: 1px solid #2668a2;
+    border-bottom:1px solid #2668a2;
+}
