@@ -62,7 +62,7 @@
 						</div>
 					</div>
 					<!-- filter 1 -->
-					<div class="row mt-2 content_search_1">
+					<div class="row content_search_1">
 						<div class="col pl-0">
 							<div class="div_input">
 								<input type="text" class="form-control" placeholder="Trên toàn quốc" value="Trên toàn quốc">
@@ -99,7 +99,7 @@
 
 					<!-- filter 2 -->
 
-					<div class="row mt-2 content_search_2">
+					<div class="row content_search_2">
 						<div class="col pl-0">
 							<div class="div_input">
 								<input type="text" class="form-control" placeholder="Trên toàn quốc" value="Trên toàn quốc">

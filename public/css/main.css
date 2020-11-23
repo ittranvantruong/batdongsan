@@ -584,22 +584,23 @@ ul.list_news li.list-group-item a:hover{
 }
 .content_search_1.in, .content_search_2.in{
 	display: flex;
-    -webkit-animation:spin .4s linear;
-    -moz-animation:spin .4s linear;
-    animation:spin .4s linear;
+	margin-top: 0.5em;
+    -webkit-animation:spin .3s linear;
+    -moz-animation:spin .3s linear;
+    animation:spin .3s linear;
 }
 
 @-moz-keyframes spin { 
-	from { -moz-transform: rotateX(50deg); }
-	to  { -moz-transform: rotate(0deg); }
+	from { -moz-transform: rotateX(50deg); opacity: 0.2; margin-top: -0.5em;}
+	to  { -moz-transform: rotate(0deg); opacity: 1; margin-top: 0.5em;}
 }
 @-webkit-keyframes spin { 
-	from { -webkit-transform: rotateX(50deg); } 
-	to { -webkit-transform: rotate(0deg); } 
+	from { -webkit-transform: rotateX(50deg); opacity: 0.2; margin-top: -0.5em;} 
+	to { -webkit-transform: rotate(0deg); opacity: 1; margin-top: 0.5em;} 
 }
 @keyframes spin { 
-	from { -webkit-transform: rotateX(50deg); transform:rotateX(50deg); } 
-	to { -webkit-transform: rotate(0deg); transform:rotate(0deg); } 
+	from { -webkit-transform: rotateX(50deg); transform:rotateX(50deg); opacity: 0.2; margin-top: -0.5em;} 
+	to { -webkit-transform: rotate(0deg); transform:rotate(0deg); opacity: 1; margin-top: 0.5em;} 
 
 }
 
